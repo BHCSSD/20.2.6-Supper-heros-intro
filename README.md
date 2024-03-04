@@ -1,18 +1,18 @@
 # 20.2.6-Supper-heros-intro
 
 ```
-let allHeroes = ["Thor","Ironman","Superman", "Vanya Hargreeves", "Wonder Woman"];
+let allHeroes = ["Thor","Ironman","Superman", "Storm", "Wonder Woman"];
 let isHuman = [false, true, false, true, true];
 let allPics = [];
 let rand;
 let angle = 0;
 
-function preload(){ 
-  allPics.push(  createImg( "thor.webp")   );
-  allPics.push(  createImg( "ironman.webp")   );
-  allPics.push(  createImg( "Superman.webp")   );
-  allPics.push(  createImg( "Vanya.webp")   );
-  allPics.push(  createImg( "wonderwoman.jpg")   );
+function preload(){ // fill our your file names
+  allPics.push(  createImg( "")   );
+  allPics.push(  createImg( "")   );
+  allPics.push(  createImg( "")   );
+  allPics.push(  createImg( "")   );
+  allPics.push(  createImg( "")   );
 
   for(let i=0; i<allHeroes.length; i++){
       allPics[i].hide();
